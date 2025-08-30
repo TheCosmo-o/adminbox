@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminBox</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script_preloader.js" defer></script>
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+ <!--- PRELOADER --->
+<div class="preloader">
+    <div class="loader"></div>
+</div>
+
+ <!--- HEADER --->
+<header>
+  <div class="container">
+    <nav>
+      <a href="#" class="logo">Admin<span>Box</span></a>
+
+      <!-- Hamburger -->
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- Menu -->
+      <ul class="nav-links" id="nav-links">
+        <li><button class="close-btn" id="close-btn">&times;</button></li>
+        <li><a href="#">Strona główna</a></li>
+        <li>
+          <a href="#category">Programy do: &#9662;</a>
+          <ul class="dropdown">
+            <li><a href="#category">Diagnozowania komputera</a></li>
+            <li><a href="#category">Diagnozowania sieci komputerowej</a></li>
+            <li><a href="#category">Zarządzania kopią zapasową</a></li>
+            <li><a href="#category">Zarządzania bezpieczeństwem urządzenia</a></li>
+            <li><a href="#category">Informacje BIOS & UEFI</a></li>
+            <li><a href="#category">Programowania</a></li>
+            <li><a href="#category">Codziennego użytku</a></li>
+          </ul>
+        </li>
+        <li><a href="#iso-category">ISO systemy</a></li>
+        <li><a href="#generator-category">Generator pliku konfiguracyjnego</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+ <!--- HERO SECTION --->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>AdminBox</h1>
+        <p>AdminBox to kompleksowa platforma internetowa stworzona z myślą o administratorach systemów, specjalistach IT oraz entuzjastach technologii. Strona pełni rolę interaktywnego katalogu najważniejszych narzędzi wykorzystywanych w codziennej pracy IT – od diagnostyki sprzętu, przez narzędzia sieciowe, aż po rozwiązania do backupu i bezpieczeństwa.</p>
+    </div>
+</section>
+
+ <!--- APPS SECTION --->
+<section id="category" class="category">
+    <div class="category-content">
+        <h2 class="header-section">Programy do:<hr></h2>
+        <div class="list_of_category">
+            <section id="app" class="app">
+                <div class="apps-content">
+                    <main>
+                        <p id="AdminToolbox">Diagnozowania Komputera</p>
+                        <p id="wprowadzenie"><b>Diagnostyka komputera</b> jest kluczowym procesem w utrzymaniu sprzętu w dobrym stanie. Polega na analizie różnych komponentów systemu komputerowego w celu wykrycia ewentualnych problemów, awarii lub ograniczeń wydajnościowych.</p>
+                        <div class="apki">
+                            <section class="ramka_apka">
+                                <a href="https://www.cpuid.com/softwares/hwmonitor.html" target="_blank">
+                                    <img src="./assets/img/apki-diagnoza-komputera/hwmonitor.png" alt="HwMonitor">
+                                    <p id="nazwa_apki">HwMonitor</p>
+                                    <p id="opis_apki">Monitoruje temperaturę i napięcia komponentów.</p>
+                                </a>
+                            </section>
+                            <section class="ramka_apka">
+                                <a href="https://crystalmark.info/en/software/crystaldiskinfo/" target="_blank">
+                                    <img src="./assets/img/apki-diagnoza-komputera/crystal-disk.png" alt="CrystalDiskInfo">
+                                    <p id="nazwa_apki">CrystalDiskInfo</p>
+                                    <p id="opis_apki">Pokazuje stan dysków twardych i SSD oraz temperatury.</p>
+                                </a>
+                            </section>
+                            <section class="ramka_apka">
+                                <a href="https://www.mersenne.org/download/" target="_blank">
+                                    <img src="./assets/img/apki-diagnoza-komputera/prime95.png" alt="Prime95">
+                                    <p id="nazwa_apki">Prime95</p>
+                                    <p id="opis_apki">Testuje stabilność procesora pod pełnym obciążeniem.</p>
+                                </a>
+                            </section>
+                            <section class="ramka_apka">
+                                <a href="https://www.ccleaner.com/speccy" target="_blank">
+                                    <img src="./assets/img/apki-diagnoza-komputera/speccy.png" alt="Speccy">
+                                    <p id="nazwa_apki">Speccy</p>
+                                    <p id="opis_apki">Szybki wgląd w szczegóły wszystkich podzespołów komputera.</p>
+                                </a>
+                            </section>
+                            <section class="ramka_apka">
+                                <a href="https://www.aida64.com/downloads" target="_blank">
+                                    <img src="./assets/img/apki-diagnoza-komputera/aida64.png" alt="AIDA64">
+                                    <p id="nazwa_apki">AIDA64</p>
+                                    <p id="opis_apki">Rozbudowane narzędzie do testów i monitorowania sprzętu.</p>
+                                </a>
+                            </section>
+                            <section class="ramka_apka">
+                                <a href="https://geeks3d.com/furmark/" target="_blank">
+                                    <img src="./assets/img/apki-diagnoza-komputera/furmark.png" alt="FurMark">
+                                    <p id="nazwa_apki">FurMark</p>
+                                    <p id="opis_apki">Testuje wydajność i stabilność karty graficznej (GPU).</p>
+                                </a>
+                            </section>
+                        </div>
+                    </main>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+
+ <!--- ISO SYSTEM SECTION --->
+<section id="iso-category" class="iso-category">
+    <div class="iso-category-content">
+        <h2 class="header-section">ISO systemów operacyjnych<hr></h2>
+        <p style="text-align: center;"><b>W tej sekcji znajdziesz linki do oficjalnych obrazów ISO popularnych systemów operacyjnych oraz narzędzi ratunkowych. Wszystkie pochodzą z bezpiecznych, zaufanych źródeł.</b></p>
+
+        <div class="iso-section">
+            <h2>Windows 10 / 11</h2>
+            <p>Oficjalne narzędzie Microsoft umożliwia pobranie obrazu ISO systemu Windows oraz przygotowanie nośnika instalacyjnego.</p>
+            <a href="https://www.microsoft.com/software-download/windows11" target="_blank">Pobierz ISO Windows 11</a><br>
+            <a href="https://www.microsoft.com/software-download/windows10" target="_blank">Pobierz ISO Windows 10</a>
+        </div>
+
+        <div class="iso-section">
+            <h2>Ubuntu</h2>
+            <p>Popularna dystrybucja Linuxa przyjazna dla początkujących użytkowników i stosowana w serwerach.</p>
+            <a href="https://ubuntu.com/download/desktop" target="_blank">Pobierz Ubuntu Desktop</a><br>
+            <a href="https://ubuntu.com/download/server" target="_blank">Pobierz Ubuntu Server</a>
+        </div>
+
+        <div class="iso-section">
+            <h2>Debian</h2>
+            <p>Stabilna i niezawodna dystrybucja Linuksa używana w środowiskach produkcyjnych.</p>
+            <a href="https://www.debian.org/distrib/" target="_blank">Pobierz Debian</a>
+        </div>
+
+        <div class="iso-section">
+            <h2>Fedora</h2>
+            <p>Nowoczesna i zaawansowana dystrybucja Linuksa wspierana przez Red Hat.</p>
+            <a href="https://getfedora.org/" target="_blank">Pobierz Fedora Workstation / Server</a>
+        </div>
+
+        <div class="iso-section">
+            <h2>Clonezilla Live</h2>
+            <p>Narzędzie do tworzenia i przywracania obrazów dysków — idealne do backupu i migracji systemów.</p>
+            <a href="https://clonezilla.org/clonezilla-live.php" target="_blank">Pobierz Clonezilla Live</a>
+        </div>
+
+        <div class="iso-section">
+            <h2>Hiren's BootCD PE</h2>
+            <p>Zestaw narzędzi ratunkowych oparty na Windows PE — użyteczny przy awariach systemu.</p>
+            <a href="https://www.hirensbootcd.org/download/" target="_blank">Pobierz Hiren’s BootCD PE</a>
+        </div>
+    </div>
+</section>
+
+ <!--- GENERATOR SECTION --->
+<section id="generator-category" class="generator-category">
+    <div class="generator-category-content">
+        <h2 class="header-section">Generator pliku konfiguracyjnego<hr></h2>
+        <form id="configForm">
+            <label for="system">Wybierz system operacyjny:</label>
+            <select id="system">
+                <option value="linux">Linux</option>
+                <option value="windows">Windows</option>
+            </select>
+
+            <label for="hostname">Nazwa komputera:</label>
+            <input type="text" id="hostname" placeholder="np. serwer1.local" required>
+
+            <label for="username">Nazwa użytkownika:</label>
+            <input type="text" id="username" placeholder="np. admin">
+
+            <label for="password">Hasło użytkownika:</label>
+            <input type="password" id="password" placeholder="np. tajnehaslo123">
+
+            <fieldset>
+                <legend>Rola komputera:</legend>
+                <label><input type="checkbox" value="WWW"> Serwer WWW (Apache/Nginx)</label>
+                <label><input type="checkbox" value="DNS"> Serwer DNS</label>
+                <label><input type="checkbox" value="FTP"> Serwer FTP</label>
+                <label><input type="checkbox" value="SSH"> Dostęp SSH</label>
+                <label><input type="checkbox" value="DB"> Serwer bazy danych (MySQL/PostgreSQL)</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dodatkowe aplikacje:</legend>
+                <label><input type="checkbox" value="XAMPP"> XAMPP (serwer SQL)</label>
+                <label><input type="checkbox" value="VSCode"> Visual Studio Code</label>
+                <label><input type="checkbox" value="VisualStudio"> Visual Studio IDE</label>
+                <label><input type="checkbox" value="Python"> Python</label>
+                <label><input type="checkbox" value="Notepad++"> Notepad++</label>
+                <label><input type="checkbox" value="Adobe"> Adobe Acrobat Reader</label>
+                <label><input type="checkbox" value="LibreOffice"> LibreOffice</label>
+                <label><input type="checkbox" value="GIMP"> GIMP</label>
+                <label><input type="checkbox" value="Firefox"> Mozilla Firefox</label>
+                <label><input type="checkbox" value="Chrome"> Google Chrome</label>
+                <label><input type="checkbox" value="Thunderbird"> Thunderbird (e-mail)</label>
+            </fieldset>
+
+            <label for="updates">Automatyczne aktualizacje:</label>
+            <select id="updates">
+                <option value="tak">Tak</option>
+                <option value="nie">Nie</option>
+            </select>
+
+            <button type="button" onclick="generuj()">Generuj plik konfiguracyjny</button>
+            <button type="button" onclick="wyczysc()">Wyczyść</button>
+        </form>
+
+        <div id="wynik"></div>
+    </div>
+</section>
+
+ <!--- FOOTER SECTION --->
+<hr class="footer-hr">
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">Cosmo<span style="color: purple;">Inc.</span></div>
+        <p class="footer-text">Dziękuję za odwiedzenie mojej strony. Jeśli chcesz dowiedzieć się więcej o moich projektach, skontaktuj się ze mną!</p>
+        <h4 class="copyright">&copy; <span id="year"></span> Cosmo Inc. Wszelkie prawa zastrzeżone.</h4>
+    </div>
+</footer>
+
+ <!--- SCRIPT SECTION --->
+<script src="./assets/js/script_category.js" defer></script>
+<script src="./assets/js/script_generator.js" defer></script>
+<script src="./assets/js/script_rok.js" defer></script>
+</body>
+</html>

@@ -55,7 +55,7 @@ AdminBox to kompleksowa platforma internetowa stworzona z myślą o administrato
 1. Sklonuj repozytorium:
 
 ```bash
-git clone https://github.com/twoje-repozytorium/AdminBox.git
+git clone https://github.com/TheCosmo-o/adminbox.git
 
 ## Struktura projektu
 

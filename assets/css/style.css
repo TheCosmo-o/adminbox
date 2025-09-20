@@ -152,6 +152,14 @@ nav {
 
 .nav-links li ul.dropdown li a::after { content: none; }
 
+.nav-links ul,
+.nav-links li,
+.nav-links li ul.dropdown {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 /* --- HERO --- */
 .hero {
     display: flex;
